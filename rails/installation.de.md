@@ -22,7 +22,7 @@ Basierend auf dieser Nummer wird nun der entsprechende Installer gedownloadet.
 
 ### Rails downloaden und installieren
 
-Die folgenden Downloads stammen von der Seite http://railsinstaller.org/en:
+Die folgenden Downloads stammen von der Seite http://railsinstaller.org/en
 
 * [Mac OSX 10.7 & 10.8](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.7.app.tgz)
 * [Mac OSX 10.6](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.6.app.tgz) (64bit only)
