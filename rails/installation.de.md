@@ -1,10 +1,6 @@
 # Rails Installation (Linux/Windows/OSX)
 
-Diese Anleitung beschreibt die Installationsschritte für die Betriebssysteme Linux, Windows und OSX.
-
-## Linux
-
-## Windows
+Diese Anleitung beschreibt die Installationsschritte für die Betriebssysteme OSX, Windows und Linux.
 
 ## OSX
 
@@ -36,3 +32,23 @@ Folge den Anweisungen im Installationsprozess. Nach dem Installationsprozess öf
 Falls es sich bei der gedownloadeten Version nicht um die aktuellste Rails Version handelt, kann man mit folgendem Befehl Rails updaten:
 
     gem update rails --no-ri --no-rdoc
+
+## Windows
+
+## Linux
+
+Für die Installation unter Linux müssen wir lediglich eine der beiden unteren Links kopieren und im Terminal eingeben:
+
+**Unter Ubuntu:**
+
+    bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+
+**Unter Fedora:**
+
+    bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/rails-install-fedora.sh)
+
+Der Prozess dauert ein Weilchen.
+
+# Bemerkungen
+
+- Vielen Dank an Rails Girls für die Installationsscripts.
