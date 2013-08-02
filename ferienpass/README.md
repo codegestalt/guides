@@ -3,4 +3,18 @@
 Codegestalt organisiert am 5. und 6. August 2013 einen Einsteigerkurs in die Welt der Webentwicklung für den Ferienpass im Laufenthal.
 Dieser Guide enthält Anleitungen, welche am Kurs genutzt werden.
 
-* Huusufgoobe Büechli ([DE](huusufgoobe-buechli.de.md))
+## Tag 1
+
+* Installation Ruby on Rails + Chrome auf eurem Laptop ([DE](/rails/installation.de.md))
+* Einführung
+* Entdecke die Magische Welt von Ruby
+* + Übungen
+* Fragen
+* Vorbereitung für den zweiten Tag
+
+## Tag 2
+
+* Meine erste Webapplikation ([Huusufgoobe Büechli](huusufgoobe-buechli.de.md))
+* Arbeit in 3 Teams (Ruby,  Android und Pinguin)
+* Wie weiter?
+* Zeigt es euren Freunden!
