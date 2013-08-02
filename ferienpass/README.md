@@ -5,7 +5,7 @@ Dieser Guide enthält Anleitungen, welche am Kurs genutzt werden.
 
 ## Tag 1
 
-* Installation Ruby on Rails + Chrome auf eurem Laptop ([DE](/rails/installation.de.md))
+* Installation Ruby on Rails + Chrome auf eurem Laptop ([Ruby on Rails](/rails/installation.de.md) | [SublimeText](http://www.sublimetext.com/) | [Chrome](https://www.google.com/intl/en/chrome/browser/?brand=CHMO#eula))
 * Einführung
 * Entdecke die Magische Welt von Ruby
 * + Übungen
