@@ -113,3 +113,5 @@ Probiere folgende Befehle aus:
 * `"Hallo" + "Ruby"`
 * `"Hallo Ruby".reverse`
 * `5.times { puts "Hello Ruby" }`
+
+Was Ruby alles kann, kannst du hier nachlesen: http://www.ruby-doc.org/
