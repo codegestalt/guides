@@ -90,3 +90,26 @@ Im nächsten Schritt kommunizieren wir erstmals mit Ruby und werfen einen kleine
 ## IRB
 
 IRB ist die Abkürzung für **Interactive Ruby Shell**.
+
+Dies ist ein Befehl, welcher durch die Installation von Ruby der Kommandozeile zur Verfügung gestellt wird.
+
+Wir können IRB auf der Kommandozeile wie folgt aufrufen:
+
+    irb
+
+Danach sollte uns die Kommandzeile eine ähnliche Antwort, wie die folgende geben:
+
+    $ irb
+    irb(main):001:0>
+
+Dies bedeutet, dass wir nun IRB gestartet haben und Ruby direkt Befehle erteilen können.
+
+Probiere folgende Befehle aus:
+
+* `1 + 100`
+* `1 - 100`
+* `10 / 2`
+* `2 * 5`
+* `"Hallo" + "Ruby"`
+* `"Hallo Ruby".reverse`
+* `5.times { puts "Hello Ruby" }`
