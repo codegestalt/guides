@@ -6,9 +6,9 @@
 * Windows: Klicke Start und tippe im Suchfeld „Command Prompt“, klicke danach auf „Command Prompt with Ruby on Rails“ um das Terminal zu öffnen.
 * Linux (Ubuntu): Suche nach dem  Terminal in der dash und klicke auf Terminal.
 
-Als nächstes tippe folgende Befehle im Terminal:
+Als nächstes führe folgende Befehle im Terminal aus:
 
-```
+```bash
 mkdir projects
 cd projects
 rails new ferienpass
@@ -16,42 +16,54 @@ cd ferienpass
 rails server
 ```
 
-Geh in den Browser deiner Wahl und öffne `http://localhost:3000`.
-Nun solltest du die “Welcome aboard” Seite sehen, was bedeutet, dass dein neues Projekt korrekt funktioniert.
+> In der [Übung 1](/ferienpass/exercises/exercise-01.de.md) haben wir die Befehle `cd` und `mkdir` kennengelernt.
+> `rails` ist lediglich ein weiterer Befehl, welcher unser Computer durch die [Installation von Ruby on Rails](/rails/installation.de.md) gelernt hat.
+
+Öffne nun den Browser deiner Wahl und tippe in der Adresszeile `http://localhost:3000` ein.
+Nun solltest du die **Welcome aboard** Seite sehen, was bedeutet, dass dein neues Projekt korrekt funktioniert.
 
 Drücke **CTRL-C** im terminal um den Server zu beenden.
 
-## 2. Erstelle das Task Gerüst
+## 2. Erstelle das Hausaufgaben Gerüst
 
-Nun werden wir die Rails `scaffold` Funktion nutzen um deine erste Applikation zu erstellen.
-Diese erlaubt dir eine Task Liste zu erstellen in welcher zu Tasks hinzufügen, ändern, ansehen und entfernen kannst.
+Nun werden wir die `scaffold` Funktion von Rails nutzen um deine erste Applikation zu erstellen, ein sogenanntes Grundgerüst (`scaffold` in Englisch).
+Diese erlaubt dir eine Hausaufgaben Liste zu erstellen, in welcher zu Hausaufgaben hinzufügen, ändern, ansehen und entfernen kannst.
 
-```
+Wie du bereits weist, ist Ruby's Muttersprache **Englisch**. Darum verwenden wir beim Programmieren ausschliesslich Englische Begriffe.
+Aus diesem Grund erstellen wir ein Grundgerüst mit dem Namen `task`, was übersetzt Aufgabe heisst:
+
+```bash
 rails generate scaffold task title:string description:text due_date:date status:boolean
 rake db:migrate
 rails server
 ```
 
-Öffne `http://localhost:3000/tasks` in deinem Browser.
+Danach öffne `http://localhost:3000/tasks` in deinem Browser.
 Klicke ein wenig herum und teste was du mit den wenigen Befehlen im Terminal erstellt hast.
 
 Klicke **CTRL-C**  um den Server wieder zu beenden.
 
 ## 3. Design
 
-Um das Design ein wenige schöner zu gestalten werden wir das Twitter Bootstrap Projekt verwenden. Dies tun wir folgendermassen:
+Um das Design ein wenig schöner zu gestalten werden wir das Twitter Bootstrap Projekt verwenden. Dies tun wir folgendermassen:
 
-Öffne `app/views/layouts/application.html.erb` in deinem text editor füge oberhalb dieser Zeile
+Öffne `app/views/layouts/application.html.erb` in deinem Texteditor füge oberhalb dieser Zeile
 
-    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+```ruby
+<%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+```
 
 folgende Zeile ein
 
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+```ruby
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+```
 
 und ersetze:
 
-    <%= yield %>
+```ruby
+<%= yield %>
+```
 
 mit
 
@@ -61,7 +73,7 @@ mit
 </div>
 ```
 
-Nun fügen wir eine Navigation zum Layout hinzu. Dafür fügen wir unter <body> folgendes hinzu:
+Nun fügen wir eine Navigation zum Layout hinzu. Dafür fügen wir unter `<body>` folgendes hinzu:
 
 ```html
 <div class="navbar navbar-fixed-top">
@@ -76,7 +88,7 @@ Nun fügen wir eine Navigation zum Layout hinzu. Dafür fügen wir unter <body> 
 </div>
 ```
 
-und füge vor `</body>` folgendes ein
+und vor `</body>` folgendes ein
 
 ```html
 <footer>
@@ -86,7 +98,8 @@ und füge vor `</body>` folgendes ein
 </footer>
 ```
 
-Nun wollen wir das Design der Tasks Tabelle ändern. Öffne `app/assets/stylesheets/application.css` und füge folgendes ein:
+Nun wollen wir die Darstellung der Hausaufgaben Tabelle ändern.
+Öffne `app/assets/stylesheets/application.css` und füge folgendes ein:
 
 ```css
 body { padding-top: 100px; }
@@ -95,18 +108,21 @@ table, td, th { vertical-align: middle !important; border: none !important; }
 th { border-bottom: 1px solid #DDD !important; }
 ```
 
-Refresh deinen Browser und sehe was sich geändert hat. Nun kannst du auch gerne noch weitere Änderungen am CSS vornehmen um zu sehen wie die Seite reagiert.
+Aktualisiere die Seite in deinem Browser und schau dir an was sich geändert hat.
+Du kannst nun auch gerne noch weitere Änderungen an der Darstellung vornehmen um zu sehen wie sich die Seite verändert.
 
 Eine Übersicht über die CSS Funktionen findest du auf dieser Seite: http://de.selfhtml.org/css/
 
 ## 4. Routes
 
-Wenn du `http://localhost:3000` öffnest wird dort immer noch die  “Welcome aboard” Seite angezeigt.
-Um dort direkt diene Husufgoobe Büechli Seite anzuzeigen machen wir folgendes:
+Wenn du `http://localhost:3000` öffnest wird dort immer noch die  **Welcome aboard** Seite angezeigt.
+Um dort direkt alle deine Hausaufgaben anzuzeigen machen wir folgendes:
 
 Öffne `config/routes.rb` und füge nach der ersten Zeile folgendes hinzu:
 
-    root :to => "tasks#index"
+```ruby
+root :to => "tasks#index"
+```
 
-Teste die Änderungen indem du `http://localhost:3000` in deinem Browser öffnest.
-Anstelle der "Welcome aboard" Seite solltest du nun die Indexseite aller deiner Hausaufgaben sehen.
+Teste die Änderung indem du `http://localhost:3000` in deinem Browser aufrufst.
+Anstelle der **Welcome aboard** Seite solltest du nun die Indexseite aller deiner Hausaufgaben sehen.
