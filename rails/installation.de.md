@@ -34,6 +34,39 @@ Falls es sich bei der gedownloadeten Version nicht um die aktuellste Rails Versi
     gem update rails --no-ri --no-rdoc
 
 ## Windows
+### Rails downloaden und installieren
+
+Die folgenden Downloads stammen von der Seite http://railsinstaller.org/en
+https://github.com/railsinstaller/railsinstaller-windows/releases/download/2.2.2/railsinstaller-2.2.2.exe
+
+Mittels Doppelcklick auf das heruntergeladene File wird die Installation gestartet. Falls das folgende Fenster auftaucht:
+![](http://www.bedesign.ch/img/rails/sicherheitswarnung.png)
+
+Klicke Ausführen. Danach sollte sich folgedes Fenster öffnen:
+![](http://www.bedesign.ch/img/rails/setup1.jpg)
+
+Hier klickst du Next und gelangst auf folgendes Fenster:
+![](http://www.bedesign.ch/img/rails/setup2.jpg)
+
+Hier ist es wichtig, dass du "I accept all of the Licenses" angewählt hast, und erst danach next klickst. 
+Im folgenden Fenster klickst du dann Install
+
+![](http://www.bedesign.ch/img/rails/setup3.jpg)
+
+sobald die Installation abgeschlossen ist erscheint folgendes Fenster:
+![](http://www.bedesign.ch/img/rails/setup4.jpg)
+
+Hier klickst du auf Finish worauf dieses Fenster erscheinen wird:
+![](http://www.bedesign.ch/img/rails/setup5.jpg)
+
+Damit ist die Installation von Rails abgeschossen.
+
+### Rails updaten
+
+Falls es sich bei der gedownloadeten Version nicht um die aktuellste Rails Version handelt, kann man mit folgendem Befehl Rails updaten:
+
+    gem update rails --no-ri --no-rdoc
+
 
 ## Linux
 
