@@ -57,30 +57,35 @@ Die Kommandozeile zeigt dir nun die Namen der verschiedenen Ordner und Dateien a
 
 > Zeigt dir die Kommandozeile keine Datei- und Ordnernamen an? Befindest du dich auf dem Desktop? Hast du überhaupt Dateien und Ordner auf dem Desktop? Falls nicht, erstelle ein paar Beispieldateien und wiederhole den oberen Befehl.
 
-Nun weisst du sicher schon, dass man mit der Maus per Rechtsklick auf dem Desktop einen neuen Ordner erstellen kann oder?
+Nun weisst du sicher schon, dass man mit der Maus per Rechtsklick einen neuen Ordner erstellen kannst oder?
 
 Die Kommandozeile kann auch neue Ordner erstellen. Führe den folgenden Befehl aus:
 
     mkdir Mein-Erster-Ordner
 
-Nun werfe einen Blick auf deinen Desktop. Siehst du das? Dort befindet sich auch der Ordner **Mein-Erster-Ordner**. Cool nicht?
+Nun werfe einen Blick auf deinen Desktop. Siehst du das? Dort befindet sich der Ordner **Mein-Erster-Ordner** den du gerade erstellt hast. Cool nicht?
 
-Du kannst jetzt mittels Kommandozeile in diesen Ordner wechseln: `cd Mein-Erster-Ordner` und dort drin einen weiteren Ordner erstellen: `mkdir Mein-Zweiter-Ordner`.
+Du kannst jetzt mittels Kommandozeile in den neuen Ordner wechseln: `cd Mein-Erster-Ordner` und dort einen weiteren Ordner erstellen: `mkdir Mein-Zweiter-Ordner`.
+
 Sobald du dies gemacht hast kannst du dir den Ordner auf der Kommandozeile mit dem Befehl `ls` anzeigen lassen.
 
-Bist du dir nicht sicher in welchem Ordner du dich mit der Kommandozeile befindest? Der Befehl `pwd` zeigt dir den aktuellen Ordner an, in dem du dich befindest.
+Bist du dir nicht sicher in welchem Ordner du dich mit der Kommandozeile befindest? Der Befehl `pwd` zeigt dir den aktuellen Standort der Kommandozeile an.
 
-Mit dem Befehl `cd` kannst du vom Ordner **Mein-Erster-Ordner** auch wieder in den Ordner Desktop zurück gehen. Führe folgenden Befehle dazu aus:
+Mit dem Befehl `cd` kannst du vom Ordner **Mein-Erster-Ordner** auch wieder in den Ordner **Desktop** zurück wechseln. Führe folgenden Befehle dazu aus:
 
     cd ..
 
-Die zwei Punkte (**..**) sagen der Kommandozeile er soll einen Ordner weiter nach oben gehen. Da sich der Ordner **Mein-Erster-Ordner** im Ordner **Desktop** befindet, wechselst du somit zum Ordner **Desktop**.
+Die zwei Punkte **..** sagen der Kommandozeile sie soll einen Ordner weiter nach oben gehen. Da sich der Ordner **Mein-Erster-Ordner** im Ordner **Desktop** befindet, wechselst du somit zum Ordner **Desktop**.
 
-Damit hätten wir unseren ersten Schritt in der Kommandozeile erfolgreich abgeschlossen. Die Kommandozeile beherscht noch eine vielzahl an weiteren Befehlen, die sie für dich ausführen kann.
-Da wir am Anfang des Tages Ruby installiert hatten, kommen noch viel mehr dazu. Im nächsten Schritt kommunizieren wir erstmals mit Ruby und werfen einen kleinen Blick darauf was sie so alles Grundlegendes kann.
+Damit hätten wir unseren ersten Schritt in der Kommandozeile erfolgreich abgeschlossen. Die Kommandozeile beherscht noch eine Vielzahl an weiteren Befehlen, die sie für dich ausführen kann.
+Du brauchst längst nicht alle zu kennen, falls du willst, findest du hier noch weitere [Linux](http://www.lugs.ch/lib/doc/befehle.phtml) oder [Windows](http://www.script-example.com/themen/cmd_Batch_Befehle.php) Befehle, welche du dir beibringen kannst.
 
-> Falls du das ganze hier noch nicht so richtig verstehst, brauchst du dir keine Sorgen zu machen.
-> Dies geht den meisten so beim ersten mal. Wichtig ist einfach, dass du diese ersten Schritte einmal gemacht hast und dich nicht davon abschrecken lässt.
+Im nächsten Schritt kommunizieren wir erstmals mit Ruby und werfen einen kleinen Blick darauf was sie so alles Grundlegendes für dich machen kann.
+
+> Falls du das ganze hier noch nicht so richtig verstanden hast, brauchst du dir keine Sorgen zu machen.
+> Dies geht den meisten so beim ersten mal.
+> Wichtig ist einfach, dass du diese ersten Schritte einmal gemacht hast und dich nicht davon abschrecken lässt.
+> Je länger du dich damit beschäftigst, desto verständlicher wird das ganze.
 
 ## IRB
 
