@@ -94,5 +94,16 @@ h1 {
 ### Positionieren
 
 ```css
+div {
+  float: left;  # links oder
+  float: right; # rechts
+}
 
+div {
+  position: absolute; # Absolut positionieren
+  top: 10px;    # 10px von oben
+  left: 10px;   # 10px von links
+  right: 10px;  # 10px von rechts
+  bottom: 10px; # 10px von unten
+}
 ```
