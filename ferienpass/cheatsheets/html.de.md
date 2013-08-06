@@ -7,6 +7,25 @@ Weitere Information zu HTML findet ihr hier:
 
 * http://de.selfhtml.org/
 
+## Struktur
+
+```html
+<html>
+<head>
+  <title>Browser Titel</title>
+</head>
+<body>
+  <!-- Browser Inhalt, hier kommen die Tags hin -->
+</body>
+</html>
+```
+
+## Kommentare
+
+```html
+<!-- Ein HTML Kommentar, dieser wird nicht im Browser Inhalt angezeigt -->
+```
+
 ## Überschriften
 
 ```html
