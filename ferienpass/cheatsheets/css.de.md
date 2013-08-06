@@ -26,11 +26,25 @@ selector {
 }
 ```
 
-Beispiel:
+Beispiel: Links auf der Seite mit blauer Farbe versehen.
+
 
 ```css
 a {
   color: blue;
+}
+```
+
+Im HTML kann man einzelnen Elementen Klassen zuweisen und mit CSS darauf referenzieren:
+
+```html
+<div class="links">
+</div>
+```
+
+```css
+.links {
+  float: left;
 }
 ```
 
