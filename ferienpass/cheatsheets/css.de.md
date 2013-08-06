@@ -16,6 +16,12 @@ CSS Code kann man auf verschiedene Arten einbinden, für die ersten Schritte ist
 </head>
 ```
 
+Einzelnen HTML Elementen kann man auch ein `style` Attribut zuweisen:
+
+```html
+<img src="http://linkzubild.jpg" style="width: 100px;">
+```
+
 ## Selektoren
 
 Mit Selektoren referenziert man mit CSS auf Elemente.
