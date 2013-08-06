@@ -15,7 +15,8 @@ Dieser Guide enthält Anleitungen, welche am Kurs genutzt werden.
 ## Tag 2
 
 * Einstieg in HTML ([HTML Cheatsheet](cheatsheets/html.de.md))
-* Meine erste Webapplikation ([Huusufgoobe Büechli](huusufgoobe-buechli.de.md))
-* Arbeit in 3 Teams (Ruby,  Android und Pinguin)
+* Einstieg in CSS ([CSS Cheatsheet](cheatsheets/css.de.md))
 * Wie weiter?
+  * [SelfHTML](http://de.selfhtml.org/): Einfache HTML und CSS Beispiele (Deutsch)
+  * [TryRuby](http://tryruby.org/): Ein 15 Minuten Ruby Tutorial (Englisch)
 * Zeigt es euren Freunden!
