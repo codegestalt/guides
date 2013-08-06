@@ -78,3 +78,21 @@ body {
   color: red; /* Schriftfarbe */
 }
 ```
+
+### Ränder
+
+```css
+div {
+  border: 1px solid black;
+}
+
+h1 {
+  border-top: 1px solid border;
+}
+```
+
+### Positionieren
+
+```css
+
+```

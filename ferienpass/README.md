@@ -16,7 +16,16 @@ Dieser Guide enthält Anleitungen, welche am Kurs genutzt werden.
 
 * Einstieg in HTML ([HTML Cheatsheet](cheatsheets/html.de.md))
 * Einstieg in CSS ([CSS Cheatsheet](cheatsheets/css.de.md))
-* Wie weiter?
-  * [SelfHTML](http://de.selfhtml.org/): Einfache HTML und CSS Beispiele (Deutsch)
-  * [TryRuby](http://tryruby.org/): Ein 15 Minuten Ruby Tutorial (Englisch)
-* Zeigt es euren Freunden!
+
+## Wie weiter?
+
+* Zeigt euer Ruby Programm und die HTML Seite eurer Familie und euren Freunden!
+
+Nachdem du den Kurs absolviert hast, kannst du Zuhause das Huusufgoobe Büechli probieren zu bauen:
+
+* [Huusufgoobe Büechli](huusufgoobe-buechli.de.md)
+
+Desweiteren gibt es im Internet noch viele Seiten auf denen du Programmieren lernen kannst:
+
+* [SelfHTML](http://de.selfhtml.org/): Einfache HTML und CSS Beispiele (Deutsch)
+* [TryRuby](http://tryruby.org/): Ein 15 Minuten Ruby Tutorial (Englisch)
