@@ -29,3 +29,5 @@ Desweiteren gibt es im Internet noch viele Seiten auf denen du Programmieren ler
 
 * [SelfHTML](http://de.selfhtml.org/): Einfache HTML und CSS Beispiele (Deutsch)
 * [TryRuby](http://tryruby.org/): Ein 15 Minuten Ruby Tutorial (Englisch)
+
+Habt ihr noch Fragen? Schreibt uns eine Email: [contact@codegestalt.com](mailto:contact@codegestalt.com)
